@@ -1,6 +1,6 @@
 # crud-inxeniux
 
-## Project setup for local environment
+## Project setup for production environment (api)
 ```
 npm install
 vue add router
