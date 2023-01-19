@@ -1,8 +1,9 @@
 # crud-inxeniux
 
-## Project setup
+## Project setup for local environment (localhost)
 ```
 npm install
+vue add router
 ```
 
 ### Compiles and hot-reloads for development
