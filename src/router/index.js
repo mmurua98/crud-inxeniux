@@ -20,6 +20,7 @@ const routes = [
     name: 'Update',
     component: Update
   },
+
 ]
 
 const router = createRouter({
