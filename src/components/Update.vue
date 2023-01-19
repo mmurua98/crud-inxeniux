@@ -114,6 +114,7 @@ export default {
         this.getDataById();
     },
     methods:{
+        //Obtener información del usuario seleccionado
         getDataById(){
             fetch('https://api-inxeniux-production.up.railway.app/?consultar='+this.$route.params.id)
             .then(response=>response.json())
@@ -123,6 +124,7 @@ export default {
             })
             .catch(console.log)
         },
+        //Actualizar información del usuario
         updateUsuario(){
             var datosEnviar={
                 id: this.$route.params.id,

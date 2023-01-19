@@ -68,6 +68,7 @@ export default {
         this.getUsuarios();
     },
     methods:{
+        //Obtener todos los usuarios
         getUsuarios(){
             fetch('https://api-inxeniux-production.up.railway.app/')
             .then(response=>response.json())
@@ -80,6 +81,7 @@ export default {
             })
             .catch(console.log)
         },
+        //Eliminar usuario
         deleteUsuario(id){
             console.log();
             fetch('https://api-inxeniux-production.up.railway.app/?borrar='+id)

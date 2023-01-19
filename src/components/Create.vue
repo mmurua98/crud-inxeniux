@@ -160,6 +160,7 @@ export default {
         }
     },
     methods:{
+        //Crear usuario. Enviar información a la base de datos.
         createUsuario(){
             console.log(this.usuario);
 
