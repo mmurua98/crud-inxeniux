@@ -3,6 +3,7 @@ import Create from '../components/Create.vue'
 import Update from '../components/Update.vue'
 import List from '../components/List.vue'
 
+//Rutas
 const routes = [
   {
     path: '/',
@@ -19,11 +20,7 @@ const routes = [
     name: 'Update',
     component: Update
   },
-  // {
-  //   path: '/list',
-  //   name: 'List',
-  //   component: List
-  // },
+
 ]
 
 const router = createRouter({
